@@ -7,7 +7,7 @@ module.exports = {
   host: '127.0.0.1',
   //指定 dev server 的端口
   port: 8080,
-  dest: '.vuepress/dist',
+  dest: 'build/dist',
   themeConfig: {
       logo: '/images/logo.png',
 	  nav: [

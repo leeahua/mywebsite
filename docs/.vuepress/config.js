@@ -9,7 +9,7 @@ module.exports = {
   port: 8080,
   dest: 'build/dist',
   themeConfig: {
-      logo: '/images/logo.png',
+      logo: '/images/logo.jpg',
 	  nav: [
 	        { text: 'Home', link: '/' },                      // 根路径
 	        { text: 'bar', link: '/bar/' },

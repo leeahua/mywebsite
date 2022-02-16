@@ -12,6 +12,7 @@ module.exports = {
       logo: '/images/logo.jpg',
 	  nav: [
 	        { text: 'Home', link: '/' },                      // 根路径
+			{ text: 'mqtt', link: '/mqtt-cn/mqtt/' },                      // 根路径
 	        { text: 'bar', link: '/bar/' },
 			{ text: 'notebook', link: '/notebook/' },
 	        { text: 'External', link: 'https://google.com' }, // 外部链接
@@ -46,6 +47,34 @@ module.exports = {
 	      ],
 	  sidebar: {
 	        // /bar/ 一个侧边栏，里面的三个页面共用一个侧边栏
+			'/mqtt-cn/mqtt/': [
+				['', '首页'],
+				['00-Contents', 'MQTT协议目录'],
+				['00-Preface', 'MQTT协议3.1.1中文版'],
+				['01-Introduction', '第一章 概述'],
+				['02-ControlPacketFormat', '第二章 MQTT控制报文格式'],
+				['03-ControlPackets', '第三章 MQTT控制报文'],
+				['04-OperationalBehavior', '第四章 操作行为'],
+				['05-Security', '第五章 安全'],
+				['06-WebSocket', '第六章 使用WebSocket作为网络层'],
+				['07-Conformance', '第七章 一致性 Conformance'],
+				['08-AppendixB', '附录B 强制性规范声明（非规范）'],
+				['0301-CONNECT', '3.1 CONNECT – 连接服务端'],
+				['0302-CONNACK', '3.2 CONNACK – 确认连接请求'],
+				['0303-PUBLISH', '3.3 PUBLISH – 发布消息'],
+				['0304-PUBACK', '3.4 PUBACK –发布确认'],
+				['0305-PUBREC', '3.5 PUBREC – 发布收到'],
+				['0306-PUBREL', '3.6 PUBREL – 发布释放'],
+				['0307-PUBCOMP', '3.7 PUBCOMP – 发布完成'],
+				['0308-SUBSCRIBE', '3.8 SUBSCRIBE - 订阅主题'],
+				['0309-SUBACK', '3.9 SUBACK – 订阅确认'],
+				['0310-UNSUBSCRIBE', '3.10 UNSUBSCRIBE –取消订阅'],
+				['0311-UNSUBACK', '3.11 UNSUBACK – 取消订阅确认'],
+				['0312-PINGREQ', '3.12 PINGREQ – 心跳请求'],
+				['0313-PINGRESP', '3.13 PINGRESP – 心跳响应'],
+				['0314-DISCONNECT', '3.14 DISCONNECT –断开连接'],
+				
+			],
 			'/notebook/': [
 			  ['', '首页'],           // ./bar/README.md文件，对应页面上/bar/路径
 			  ['cpp-dll', 'cpp-dll'],        // ./bar/one.md文件，对应页面上/bar/one.html
